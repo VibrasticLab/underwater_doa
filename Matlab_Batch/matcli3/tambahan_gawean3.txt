@@ -1,0 +1,43 @@
+mas ahmadi minta tolong buat run matlab.
+terimakasih sebelumnya
+
+1. KOnvolusi sinyal
+    -algoritmanya 
+        /home/viblab/Documents/margiasih/olahdatasparse/konvolusi/conv.sinyal.m
+    -konvolutor 
+        alamatnya : /home/viblab/Documents/margiasih/olahdatasparse/konvolusi/konvolutor.wav
+    -sinyal asli yang akan dikonvolusi
+        '/home/viblab/Documents/margiasih/olahdatasparse/Resample/Resample1per10/Track 1_001.wav'
+            Nb: Resamplenya dimulai dari resample1per10 sampai Resample 9/10 
+                dari Track 1_001 sampai Track 4_44
+    -output berupa wav
+        '/home/viblab/Documents/margiasih/olahdatasparse/konvolusi/konvolusi1/Trackx_00x_konv.wav'
+            NB :    Nama outputnya : Trackx_00x_konv.wav
+                    Foldenya menyesuaikan folder Resample. MIsalkan konvolusi1 untuk folder Resample 1. 
+                    Konvolusi dimulai dari konvolusi1 untuk meletakkan hasil resample1per10 hingga konvolusi 9 untuk resample9per10
+
+2. Sudut CC dan PHAT
+        -algoritmanya 
+            /home/viblab/Documents/margiasih/olahdatasparse/Sourcecode/carisudutarray.m
+        -sinyal masukkan
+            pada line 13-16 tolong dimasukkan nilai pada setiap track yang telah di konvolusi misalnya 
+                Nb: Pada folder konvolusi1: 
+                    Track1_001.konv ,  Track2_002.konv, Track3_001, Track 4_001, untuk mendapatkan sudut 0 derajat
+                    Track1_008.konv ,  Track2_008.konv, Track3_008, Track 4_008, untuk mendapatkan sudut 30 derajat
+                    Track1_017.konv ,  Track2_017.konv, Track3_017, Track 4_017, untuk mendapatkan sudut 60 derajat
+                    Track1_026.konv ,  Track2_026.konv, Track3_026, Track 4_026, untuk mendapatkan sudut 90 derajat
+                    Track1_031.konv ,  Track2_031.konv, Track3_031, Track 4_031, untuk mendapatkan sudut 120 derajat
+                    Track1_031.konv ,  Track2_037.konv, Track3_037, Track 4_037, untuk mendapatkan sudut 150 derajat
+                    Track1_044.konv ,  Track2_044.konv, Track3_044, Track 4_044, untuk mendapatkan sudut 180 derajat
+                    dimulai dari Konvolusi 1 hingga konvolusi 9
+
+        -Hasil output
+            Output berupa nilai sudut yang didapatkan dari "hasil_rata" untuk CC dan PHAT
+            Tolong kedua parameter ini dimasukkan dalam excel.
+
+
+
+Terimakasih =)
+semoga mas ahmadi mendapat segala kemudahan.
+amin ya rabalalamin
+

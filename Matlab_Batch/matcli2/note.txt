@@ -1,0 +1,3 @@
+input resample7per10 no Track_1_008
+
+Nama banyak tidak homogen

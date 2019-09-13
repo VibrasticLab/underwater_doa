@@ -1,0 +1,38 @@
+mas ahmadi minta tolong buat run matlab.
+terimakasih sebelumnya
+
+algoritma di 
+        /home/viblab/Documents/margiasih/OMP/coba sparse again\a.m
+
+data yang diload
+        /home/viblab/Documents/margiasih/data rekaman
+
+Variasi yang akan dilakukan
+    - Resample 5/10
+        pada script x = resample(x_ori, 5, 10); tolong diganti menjadi 5/10
+        Dan hasil audiowritenya dimasukkan pada folder /home/viblab/Documents/margiasih/Resample5per10
+        load data mulai dari track 1_026..4_044
+
+    - Resample 6/10
+        pada script x = resample(x_ori, 6, 10); tolong diganti menjadi 6/10
+        Dan hasil audiowritenya dimasukkan pada folder /home/viblab/Documents/margiasih/Resample6per10
+        load data mulai dari awal 1_001..4_044
+
+    - Resample 7/10
+        pada script x = resample(x_ori, 7, 10); tolong diganti menjadi 7/10
+        Dan hasil audiowritenya dimasukkan pada folder /home/viblab/Documents/margiasih/Resample7per10 
+        load data mulai dari 2_026..4_044
+        
+    - Resample 9/10
+        pada script x = resample(x_ori, 9, 10); tolong diganti menjadi 9/10
+        Dan hasil audiowritenya dimasukkan pada folder /home/viblab/Documents/margiasih/Resample9per10 
+        load data mulai dari TRack 2_37..4_044
+
+output
+    OUtput audiowrite tolong disesuaikan dengan nama track data rekaman: add "_sp"
+        audiowrite('/home/viblab/Documents/margiasih/resample7per10/Track1_26_sp.wav',Xrec,Fs_ori);
+
+Terimakasih =)
+semoga mas ahmadi mendapat segala kemudahan.
+amin ya rabalalamin
+
